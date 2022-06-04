@@ -437,7 +437,7 @@ function equal(){
 // Keyboard events
 document.addEventListener('keydown',function(event)
 {
-    console.log('key down',event.keyCode);
+    // console.log('key down',event.keyCode);
     if(event.keyCode == 53)
     {
         percentage();
@@ -462,5 +462,46 @@ document.addEventListener('keydown',function(event)
     {
         subtraction();
     }
+    else if(event.keyCode == 103 ||event.keyCode == 55)
+    {
+        button[4].click();
+    }
     
+    else if(event.keyCode == 104 ||event.keyCode == 56)
+    {
+        button[5].click();
+    }
+    
+    else if(event.keyCode == 105 ||event.keyCode == 57)
+    {
+        button[6].click();
+    }
+    else if(event.keyCode == 100 ||event.keyCode == 52)
+    {
+        button[8].click();
+    }
+    
+    else if(event.keyCode == 101 ||event.keyCode == 53)
+    {
+        button[9].click();
+    }
+    
+    else if(event.keyCode == 102 ||event.keyCode == 54)
+    {
+        button[10].click();
+    }
+    else if(event.keyCode == 97 ||event.keyCode == 49)
+    {
+        button[12].click();
+    }
+
+    else if(event.keyCode == 98 ||event.keyCode == 50)
+    {
+        button[13].click();
+    }
+
+    else if(event.keyCode == 99 ||event.keyCode == 51)
+    {
+        button[14].click();
+    }
 });
