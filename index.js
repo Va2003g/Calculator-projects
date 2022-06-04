@@ -433,3 +433,34 @@ function equal(){
     display.innerText = result;
 };
 // Operator functions ending.
+
+// Keyboard events
+document.addEventListener('keydown',function(event)
+{
+    console.log('key down',event.keyCode);
+    if(event.keyCode == 53)
+    {
+        percentage();
+    }
+    else if(event.keyCode == 56 ||event.keyCode == 106)
+    {
+        multiplication();
+    }
+    else if(event.keyCode == 187 ||event.keyCode == 13)
+    {
+        equal();
+    }
+    else if(event.keyCode == 107 )
+    {
+        addition();
+    }
+    else if(event.keyCode == 191 ||event.keyCode == 111)
+    {
+        division();
+    }
+    else if(event.keyCode == 109)
+    {
+        subtraction();
+    }
+    
+});
