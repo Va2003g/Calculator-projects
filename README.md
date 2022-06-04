@@ -1,5 +1,4 @@
 # Calculator-projects
-project made from html and css
 
 The project looks like the following:
   ![photo](https://user-images.githubusercontent.com/101311432/171995618-885f5744-3dcf-433c-9722-4dbcaf2eb6f7.png)
