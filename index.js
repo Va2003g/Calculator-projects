@@ -432,5 +432,4 @@ function equal(){
     // console.log(result);
     display.innerText = result;
 };
-
 // Operator functions ending.
