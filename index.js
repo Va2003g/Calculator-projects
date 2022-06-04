@@ -437,7 +437,7 @@ function equal(){
 // Keyboard events
 document.addEventListener('keydown',function(event)
 {
-    // console.log('key down',event.keyCode);
+    console.log('key down',event.keyCode);
     if(event.keyCode == 53)
     {
         percentage();
@@ -503,5 +503,16 @@ document.addEventListener('keydown',function(event)
     else if(event.keyCode == 99 ||event.keyCode == 51)
     {
         button[14].click();
+    }
+
+
+    else if(event.keyCode == 48 ||event.keyCode == 96)
+    {
+        button[16].click();
+    }
+
+    else if(event.keyCode == 110 ||event.keyCode == 190)
+    {
+        button[17].click();
     }
 });
