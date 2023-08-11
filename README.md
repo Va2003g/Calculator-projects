@@ -5,5 +5,4 @@ The project looks like the following:
 
 Some points about my project:
   1. This is simply developed by HTML CSS AND JAVASCRIPT.
-  2.  Used javascript event handling to add keyboard events.
-
+  2. Used javascript event handling to add keyboard events. Thus you can enter number from your keyboard also. 
